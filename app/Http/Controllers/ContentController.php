@@ -11,7 +11,8 @@ class ContentController extends Controller
     }
 
     public function about(){
-        return view('content/about');
+        $people = [];
+        return view('content/about', compact('people'));
     }
 
     public function gallery(){
