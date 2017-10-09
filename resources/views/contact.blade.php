@@ -1,18 +1,38 @@
 @extends('layout')
-@section('content')
-<h1>Contcact Me!</h1>
-<form action="??" method="post">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="email">
-    <label for="email">Email</label>
-    <input type="text" name="email" id="email">
-    <label for="comment">Comment</label>
-    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-    <input type="submit">
-</form>
+@section('title')
+    Contact
 @stop
-@section('footer')
-    <script>
-        document.write("HIHI")
-    </script>
+@section('content')
+    <div id="body" class="contact">
+        <div class="header">
+            <div>
+                <h1>Contact</h1>
+            </div>
+        </div>
+        <div class="body">
+            <div>
+                <div>
+                    <img src="images/check-in.png" alt="">
+                    <h1>Invercargill/Winton/Otauatu</h1>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="contact">
+                <h1>INQUIRY FORM</h1>
+                <form action="index.html">
+                    <input type="text" name="Name" value="Name" onblur="this.value=!this.value?'Name':this.value;" onfocus="this.select()" onclick="this.value='';">
+                    <input type="text" name="Email" value="Email" onblur="this.value=!this.value?'Email':this.value;" onfocus="this.select()" onclick="this.value='';">
+                    <input type="text" name="Subject" value="Subject" onblur="this.value=!this.value?'Subject':this.value;" onfocus="this.select()" onclick="this.value='';">
+                    <textarea name="meassage" cols="50" rows="7">Share your thoughts</textarea>
+                    <input type="submit" value="Send" id="submit">
+                </form>
+            </div>
+            <div class="section">
+                <h1>WE’D LOVE TO HEAR FROM YOU.</h1>
+
+            </div>
+        </div>
+    </div>
 @stop

@@ -2,43 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <title>Soul Dance Academy</title>
-    <style>
-        li{
-            list-style: none;
-            display: inline;
-        }
-        footer,header{
-            background-color: yellow;
-        }
-        body{
-            background-color: #5bc0de;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title') - Soul Dance Academy</title>
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/css/mobile.css">
+    <script src="/js/mobile.js" type="text/javascript"></script>
 </head>
 <body>
-<header>
-<nav>
-    <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ul>
-</nav>
-</header>
-<div class="container-fluid">
+<div id="page">
+    <div id="header">
+        <div>
+            <a href="home" class="logo"><img src="images/logo1.jpg" alt=""></a>
+            <p>Believe and you can achieve</p>
+            <ul id="navigation">
+                <li>
+                    <a href="home">Home</a>
+                </li>
+                <li class="menu selected">
+                    <a href="about">About</a>
+                    <ul class="primary">
+                        <li>
+                            <a href="classes">Classes</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="news">News</a>
+                    <ul class="secondary">
+                        <li>
+                            <a href="gallery">Gallery</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
     @yield('content')
+    <div id="footer">
+        <div>
+            <div class="connect">
+                <a href="https://www.facebook.com/souldance81/" class="facebook">facebook</a>
+                <a href="http://freewebsitetemplates.com/go/twitter/" class="twitter">twitter</a>
+                <a href="http://freewebsitetemplates.com/go/googleplus/" class="googleplus">googleplus</a>
+                <a href="http://pinterest.com/fwtemplates/" class="pinterest">pinterest</a>
+            </div>
+            <p>&copy; 2017 Soul Dance Academy. All Rights Reserved.</p>
+        </div>
+    </div>
 </div>
-<p>Placeholder text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel tincidunt justo,
-    sit amet tincidunt neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-    mus. Vestibulum pharetra lacinia nisi, vel finibus augue rutrum vel. Vivamus et elementum urna. In hac
-    habitasse platea dictumst.
-</p>
-@yield('footer')
-<footer>------ Footer placeholder ------</footer>
 </body>
 </html>

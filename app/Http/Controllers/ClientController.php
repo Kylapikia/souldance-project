@@ -10,11 +10,8 @@ class ClientController extends Controller
         return view('contact');
     }
 
-    public function adultclass(){
-        return view('classes/adult');
+    public function classes(){
+        return view('content/classes');
     }
 
-    public function kidclass(){
-        return view('classes/kid');
-    }
 }
