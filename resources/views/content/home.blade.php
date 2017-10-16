@@ -16,7 +16,6 @@
                 <h2>DANCE</h2>
                 <p>Soul Dance Academy is dedicated to bringing quality n excellence of dance to their students n strives to provide a dynamic learning environment.</p>
             </div>
-            hello jkshfakj
             <img src="images/d5.jpg" alt="">
         </div>
     </div>
