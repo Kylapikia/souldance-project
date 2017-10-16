@@ -300,7 +300,7 @@ img {
 	display: inline-block;
 	list-style: none outside none;
 	margin: 0;
-	padding: 36px 0 32px;
+	padding: 20px 0 10px;
 	width: 100%;
 }
 #body.home div.footer div ul li {
@@ -1039,7 +1039,7 @@ img {
 	margin: 0 auto;
 	max-width: 960px;
 	overflow: hidden;
-	padding: 59px 0 13px;
+	padding: 10px 0 5px;
 }
 #footer div p {
 	color: #FFFFFF;
@@ -1062,25 +1062,7 @@ img {
 	padding: 0;
 	width: 240px;
 }
-#footer div .connect a {
-	background: url(../images/icons.png) no-repeat;
-	display: block;
-	float: left;
-	height: 30px;
-	margin: 0 15px;
-	padding: 0;
-	text-indent: -99999px;
-	width: 30px;
-}
-#footer div .connect a.facebook {
-	background-position: 0 0;
-}
-#footer div .connect a.googleplus {
-	background-position: 0 -32px;
-}
-#footer div .connect a.pinterest {
-	background-position: 0 -64px;
-}
-#footer div .connect a.twitter {
-	background-position: 0 -96px;
+#timetable{
+	margin: 5px auto;
+	
 }
