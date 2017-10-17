@@ -27,7 +27,7 @@
                     </ul>
                 </li>
                 <li class="menu">
-                    <a href="news">News</a>
+                    <a href="news">Blog</a>
                     <ul class="secondary">
                         <li>
                             <a href="gallery">Gallery</a>

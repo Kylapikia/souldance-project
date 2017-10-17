@@ -23,19 +23,19 @@
         <div>
             <ul>
                 <li>
-                    <a href="service.html" class="service"></a>
+                    <a href="classes" class="service"></a>
                     <h1>SERVICE</h1>
                 </li>
                 <li>
-                    <a href="about.html" class="about"></a>
+                    <a href="about" class="about"></a>
                     <h1>OUR STORY</h1>
                 </li>
                 <li>
-                    <a href="singlepost.html" class="event"></a>
+                    <a href="news" class="event"></a>
                     <h1>EVENT</h1>
                 </li>
                 <li>
-                    <a href="contact.html" class="contact"></a>
+                    <a href="contact" class="contact"></a>
                     <h1>OUR LOCATION</h1>
                 </li>
             </ul>
