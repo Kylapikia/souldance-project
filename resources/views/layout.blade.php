@@ -6,6 +6,7 @@
     <title>@yield('title') - Soul Dance Academy</title>
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="/css/mobile.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <script src="/js/mobile.js" type="text/javascript"></script>
 </head>
 <body>
