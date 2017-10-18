@@ -186,7 +186,7 @@ img {
 	position: relative;
 }
 #body.home div.header div a {
-	background: url(../../../soul/public/images/icons.png) no-repeat 0 -128px;
+	background: url(../../resources/assets/images/icons.png) no-repeat 0 -128px;
 	color: #FFFFFF;
 	display: block;
 	font-family: quicksand-bold-webfont;
@@ -310,7 +310,7 @@ img {
 	width: 220px;
 }
 #body.home div.footer div ul li a {
-	background: url(../../../soul/public/images/icons.png) no-repeat;
+	background: url(../../resources/assets/images/icons.png) no-repeat;
 	display: block;
 	height: 44px;
 	margin: 0 auto 22px;
@@ -566,7 +566,7 @@ img {
 	margin: 0 0 50px 0;
 }
 #body div.blog .featured ul li {
-	background: url(../../../soul/public/images/bg-border.gif) no-repeat bottom center;
+	background: url(../../resources/assets/images/bg-border.gif) no-repeat bottom center;
 	float: none;
 	margin: 0 0 39px;
 	overflow: hidden;
@@ -848,7 +848,7 @@ img {
 	width: 160px;
 }
 #body.contact div.body {
-	background: url(../../../soul/public/images/map.jpg) no-repeat center top #b5aaad;
+	background: url(../../resources/assets/images/map.jpg) no-repeat center top #b5aaad;
 	margin: 0;
 	max-width: none;
 	padding: 0;
@@ -861,7 +861,7 @@ img {
 	padding: 39px 0 0;
 }
 #body.contact div.body div div {
-	background: url(../../../soul/public/images/bg-transparent.png) repeat;
+	background: url(../../resources/assets/images/bg-transparent.png) repeat;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 30px 0 35px 133px;

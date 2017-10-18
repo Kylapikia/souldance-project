@@ -45,7 +45,7 @@
 		width: 50%;
 	}
 	#header span#mobile-navigation {
-		background: transparent url(../../../soul/public/images/mobile/mobile-menu.png) no-repeat;
+		background: transparent url(../../resources/assets/images/mobile/mobile-menu.png) no-repeat;
 		display: block;
 		height: 50px;
 		margin: 0;
@@ -99,7 +99,7 @@
 		width: auto;
 	}
 	#header .mobile-submenu {
-		background: rgba(121, 101, 102, 0.91) url(../../../soul/public/images/mobile/mobile-expand.png) no-repeat center;
+		background: rgba(121, 101, 102, 0.91) url(../../resources/assets/images/mobile/mobile-expand.png) no-repeat center;
 		border-left: 1px solid #f8f8f8;
 		display: inline-block;
 		height: 3.4em;
