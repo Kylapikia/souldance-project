@@ -31,7 +31,6 @@
             </div>
             <div class="section">
                 <h1>WE’D LOVE TO HEAR FROM YOU.</h1>
-
             </div>
         </div>
     </div>
